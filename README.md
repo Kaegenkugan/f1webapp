@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+F1WebApp
+F1WebApp is a web application that connects to the Ergast API to display Formula 1 data. It provides users with up-to-date information on races, drivers, and standings, making it easier to follow the Formula 1 season.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Race Data: Access detailed information about each race, including race results and timings.
+Driver Standings: View the latest driver standings with complete statistics.
+Team Information: Explore details about Formula 1 teams, their history, and performance.
+Season Overview: Get a snapshot of the entire season, including past and upcoming races.
+Technologies Used
+Frontend: React.js
+Backend: Node.js with Express
+API: Ergast API for Formula 1 data
+Containerization: Docker for easy deployment
+Version Control: Git and GitHub
+Getting Started
+Prerequisites
+Node.js: Ensure that Node.js is installed on your machine. You can download it here.
+Docker: For containerization and easy deployment.
+Installation
+Clone the repository:
 
-## Available Scripts
+bash
+Copy code
+git clone https://github.com/Kaegenkugan/f1webapp.git
+cd f1webapp
+Install the dependencies:
 
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+This will run the app in development mode. Open http://localhost:3000 in your browser to view it.
+
+Docker Setup
+To run the application in a Docker container:
+
+Build the Docker image:
+
+bash
+Copy code
+docker build -t f1webapp .
+Run the Docker container:
+
+bash
+Copy code
+docker run -p 3000:3000 f1webapp
+Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+npm start: Runs the app in the development mode.
+npm test: Launches the test runner.
+npm run build: Builds the app for production.
+npm run eject: Removes the single build dependency from your project.
+Contributing
+Contributions are welcome! Please fork this repository and submit a pull request with your changes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+For questions or suggestions, feel free to open an issue on GitHub.
